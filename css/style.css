@@ -264,3 +264,87 @@ ul a {
     }
 
 }
+
+/*-------------------------- Sección Galletas----------------------------- */
+
+.texto-cookie-flex{
+    color: white;  
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2rem;  
+    align-items: center;
+    width: 21vw;
+    margin: 5vw;
+}
+
+.texto-cookie-flex h2{
+    background: -webkit-linear-gradient(10deg, rgb(240, 51, 186) 40%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.wrapper-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    grid-gap: 2rem;
+    margin: 1rem;
+    margin-top: none;
+}
+
+.container{
+    /* box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35); */
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    width: 270px;
+    height: 395px;
+    margin-top: none;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(233,220,198);
+}
+
+.cookie-product{
+    width: 100%;
+}
+
+.name{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(233,220,198);
+}
+
+.description{
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgb(233,220,198);
+}
+
+.btn{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #5923a0;
+    padding: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Pacifico', cursive; */ 
+}
+
+.container:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35);
+    -moz-box-shadow: 5px 5px 9px -1px rgba(0,0,0,0.35);
+
+}
+
+.cookie-grid-flex{
+    display: flex;
+}
