@@ -167,6 +167,12 @@ ul a {
     margin: 0%;
 }
 
+/* ------------------------ Seccion TIENDAS ---------------------------- */
+
+.carousel-inner{
+    max-height: 20rem;
+}
+
 @media (max-width:768px){
     .navbar>.container-fluid{
         display: flex;

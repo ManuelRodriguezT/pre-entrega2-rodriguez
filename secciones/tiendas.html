@@ -1,80 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Galletas</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Galletas</title>
 </head>
 
 <body>
-    <header>
-        <!-- Menu de navegacion -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
-            <div class="container-fluid" id="menu">
-              <a class="navbar-brand img-logo" href="../index.html"><img src="../recursos/cookie-de-nutella.png" width="120px" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../secciones/galletas.html">Galletas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../secciones/tiendas.html">Tiendas</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../secciones/nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-    <main></main>
-    <footer>
-        
-        <div class="container-fluid">
+  <header>
+    <!-- Menu de navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary menu">
+      <div class="container-fluid" id="menu">
+        <a class="navbar-brand img-logo" href="../index.html"><img src="../recursos/cookie-de-nutella.png" width="120px"
+            alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/galletas.html">Galletas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/tiendas.html">Tiendas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-            <div class="row p-5 text-white footer">
-                
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <ul>
-                        <li><a href="..//index.html">Home</a></li>
-                        <li><a href="..//secciones/galletas.html">Galletas </a></li>
-                        <li><a href="..//secciones/tiendas.html">Tiendas</a></li>
-                        <li><a href="..//secciones/nosotros.html">Nosotros</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <ul>
-                        <li>Contacto</li>
-                        <li>Dirección: Fray Camilo Enriquez 660</li>
-                        <li>Escríbenos al correo:<a href="mailto:cookies@pauli.com"> cookies@pauli.com</a> </li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <img src="..//recursos/cashew_confetti_gif_grande-removebg-preview (1).png" width="250px" alt="">
-                </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
-                    <img src="..//recursos/shot_230122_210313-removebg-preview (1).png" width="150px" alt="">
-                </div>
+  <main>
 
-            </div>
+    <!--------------------- Carousel ----------------------->
 
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="../recursos/banner-tiendas-1.png" class="d-block w-100" alt="...">
         </div>
 
-    </footer>
+        <div class="carousel-item">
+          <img src="../recursos/banner-tiendas-2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </main>
+
+  <!-- -------------------Texto---------------------- -->
+  <section class="w-50 mx-auto text-center pt-5">
+    <h1 class="p-3 fs-2 border-top border-3 text-light">¡Te estamos esperando!</h1>
+    <p><h3 class="text-light">Nuestros hornos están siempre prendidos para ti. Vive la experiencia Cookie Shop y únete a la familia.</h3></p>
+  </section>
+
+  <!-- -----------------Sub Banners--------------------->
+  <section class="container-fluid">
+    <div class="row w-75 mx-auto my-5">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img src="..//recursos/cookie-shop1.png" width="300px" alt="">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 text-light">Santiago</h3>
+          <p class="text-light">fray Camilo Henriquez 660</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <img src="..//recursos/cookie-shop2.png" width="300px" alt="">
+        <div>
+          <h3 class="fs-5 mt-4 px-4 text-light">Caracas</h3>
+          <p class="text-light">Chacao, Campo Alegra, Edf. Manhatta Plaza</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------- Footer --------------------->
+  <footer>
+
+    <div class="container-fluid">
+
+      <div class="row p-5 text-white footer">
+
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <ul>
+            <li><a href="..//index.html">Home</a></li>
+            <li><a href="..//secciones/galletas.html">Galletas </a></li>
+            <li><a href="..//secciones/tiendas.html">Tiendas</a></li>
+            <li><a href="..//secciones/nosotros.html">Nosotros</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <ul>
+            <li>Contacto</li>
+            <li>Dirección: Fray Camilo Enriquez 660</li>
+            <li>Escríbenos al correo:<a href="mailto:cookies@pauli.com"> cookies@pauli.com</a> </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <img src="..//recursos/cashew_confetti_gif_grande-removebg-preview (1).png" width="250px" alt="">
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <img src="..//recursos/shot_230122_210313-removebg-preview (1).png" width="150px" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
