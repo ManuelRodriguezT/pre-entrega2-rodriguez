@@ -170,8 +170,50 @@ ul a {
 /* ------------------------ Seccion TIENDAS ---------------------------- */
 
 .carousel-inner{
-    max-height: 20rem;
+    max-height: 15rem;
 }
+
+.texto-principal-tiendas{
+    font-family: 'Pacifico', cursive;
+}
+
+.mapa{
+    background: url(../recursos/mapa.png);
+    width: 100%;
+    height: 400px;
+}
+
+#local{
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 50%;
+    margin-left: 100px;
+    padding-top: 150px;
+
+}
+
+#numeros-local div{
+    padding: 0 20px 0 0;
+    height: 48px;
+}
+
+
+#numeros-local div:not(:last-child){
+    border-right: 2px solid white;
+}
+
+#numeros-local div:not(:first-child){
+    padding-left: 20px;
+}
+
+#numeros-local p{
+    margin: 0;
+}
+
 
 @media (max-width:768px){
     .navbar>.container-fluid{
