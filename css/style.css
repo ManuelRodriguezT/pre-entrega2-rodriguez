@@ -8,6 +8,7 @@ font-family: 'Quicksand', sans-serif; */
     margin: 0px;
     font-family: 'Quicksand', sans-serif;
     background-color: #6624BA;
+    box-sizing: border-box;
 }
 
 body{
@@ -177,159 +178,195 @@ ul a {
 
 /* ------------------------ Seccion TIENDAS ---------------------------- */
 
-.carousel-inner{
-    max-height: 15rem;
-}
-
-.texto-principal-tiendas{
-    font-family: 'Pacifico', cursive;
-}
-
-.mapa{
-    background: url(../recursos/mapa.png);
-    width: 100%;
-    height: 400px;
-}
-
-#local{
-    padding-bottom: 300px;
+.container-us{
     display: flex;
-    justify-content: center;
-}
-
-.wrapper {
-    width: 50%;
-    margin-left: 100px;
-    padding-top: 150px;
-
-}
-
-#numeros-local div{
-    padding: 0 20px 0 0;
-    height: 48px;
-}
-
-
-#numeros-local div:not(:last-child){
-    border-right: 2px solid white;
-}
-
-#numeros-local div:not(:first-child){
-    padding-left: 20px;
-}
-
-#numeros-local p{
-    margin: 0;
-}
-
-/* ------------------------------- Contacto--------------------------------- */
-
-.contact{
-    position: relative;
-    min-height: 100vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
+    height: 88%;
     align-items: center;
-    flex-direction: column;
+
 }
 
-.contact .content{
-max-width: 800px;
-text-align: center;
-}
+/* -------------------------------Sección Contacto--------------------------------- */
 
-.contact .content h2{
-    font-size: 36px;
-    font-weight: 500;
-    color: white;
-}
-
-.contact .content p{
-    font-weight: 300;
-    color: white;
-}
-.container-contacto
-{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.container-form{
+    min-height: calc(100vh-40px*2);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: white;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
-    /* flex-direction: row; */
 }
 
-.container-contacto .contact-info{
-    width: 50%;
+.login-left{
     display: flex;
     flex-direction: column;
+    justify-content: content;
+    padding-left: 10%;
+    background-color: white;
 }
 
-.container-contacto .contact-info .box{
-    position: relative;
-    padding: 20px 0;
-    display: flex;
-}
-
-.container-contacto .contact-info .box .icon{
-    min-width: 60px;
-    height: 60px;
+.login-rigt{
     display: flex;
     justify-content: center;
-    align-items: center;
-    border-radius: 70%;
-    font-size: 22px;
+    background-color: white;
 }
 
-.container-contacto .contact-info .box .text{
+.login-right img{
+    width: 100%;
+    background-color: white;
+}
+
+.login-form{
+    width: 450px;
+    background-color: white;
+}
+
+.login-form-content{
     display: flex;
-    margin-left: 20px;
-    font-size: 16px;
-    color: white;
     flex-direction: column;
+    gap: 35px;
+    background-color: white;
 }
 
-.container-contacto .contact-info .box .text h3{
-    font-weight: 600;
-    color: rgb(219, 136, 3);
-    font-size: large;
+.login-header{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: white;
 }
 
-.contactForm{
-    width: 40%;
-    padding: 40px;
+.login-header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    background: -webkit-linear-gradient(10deg, #d227a1 40%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    
 }
 
-.contactForm h2{
-    font-size: 30px;
-    color: #333;
-    font-weight: 500;
+.login-header p{
+    opacity: .7;
+    background-color: white;
 }
 
-.contactForm .inputBox{
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-    border-radius: 15%;
+
+.login-form-footer{
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    padding: 5%;
 }
 
-.contactForm .inputBox input,
-.contactForm .inputBox textarea{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid purple;
-    outline: none;
-    resize: none;
-}
-
-.contactForm .inputBox span{
+.form-item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 10px;
     position: absolute;
-    left: 0;
+    padding: 0 5px;
+    transform: translate(30px, -10px);
+    font-size: 14px;
+}
+
+.form-item{
+    background-color: white;
+}
+
+input[type='text']{
+    border: 1px solid rgb(105, 104, 104);
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.checkbox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background-color: white;
+}
+
+.checkbox label{
+    background-color: white;
+}
+
+input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    accent-color: #d227a1;
+    background-color: white;
+}
+
+.button-form{
+    background: rgb(51,16,97);
+background: linear-gradient(45deg, rgba(51,16,97,1) 0%, rgba(253,45,157,1) 82%);
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button-form:hover{
+    scale: 1.05;
+    box-shadow: 13px 10px 10px #2c2b2e;
+    transition: 0.5s;
 
 }
+
+.login-form-footer img{
+    background-color: white;
+}
+
+.login-form-footer img:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+@media (max-width: 1350px) {
+    .login-left{
+        padding: 50px !important;
+    }
+
+    .login-form{
+        width: 100%;
+    }
+
+    .login-footer{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    body{
+        padding: 20px;
+    }
+
+    .container-form{
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+
+    .login-right{
+        display: none;
+    }
+}
+
+
 
 /* ----------------------------Nosotros---------------------------- */
 
@@ -411,9 +448,6 @@ text-align: center;
     transform: scale(1.2);
     cursor: pointer;
 }
-
-
-
 
 
 

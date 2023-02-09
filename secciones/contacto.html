@@ -51,62 +51,46 @@
   <!-- -------------Formulario------------------ -->
 
   <main>
-    <section class="contact">
-      <div class="content">
-        <h2>Queremos saber se ti</h2>
-        <p>Siempre puedes escribirnos usando este formulario, nuestras redes, teléfonos, o acercarte a charlar con
-          nosotros.
-          Aquí te estaremos esperando.</p>
+  <div class="container container-form">
+    <div class="login-left">
+      <div class="login-header">
+        <h1>!Queremos saber de ti!</h1>
+        <p>Déjanos un mensaje</p>
       </div>
-      
-      <div class="container-contacto">
-        <div class="contact-info">
-          <div class="box">
-            <div class="icon"><i class="fa-solid fa-location-dot"></i></i></div>
-            <div class="text">
-              <h3>Dirección</h3>
-              <p>Fray Camilo Henriquez 660</p>
+      <form class="login-form">
+        <div class="login-form-content">
+          <div class="form-item">
+            <label for="email">Ingresa tu mail</label>
+            <input type="text" id="email">
+          </div>
+          <div class="form-item">
+            <label for="text"> ¿Qué nos quieres decir?</label>
+            <input type="text" id="password">
+          </div>
+          <div class="form-item">
+            <div class="checkbox">
+              <input type="checkbox" id="rememberMeCheckbox" checked>
+              <label for="rememberMeCheckbox" class="checkboxLabel">Recuérdenme</label>
             </div>
           </div>
-          <div class="box">
-            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
-            <div class="text">
-              <h3>Correo</h3>
-              <p>Cookie@pauli.com</p>
-            </div>
-          </div>
-          <div class="box">
-            <div class="icon"><i class="fa-brands fa-whatsapp"></i></div>
-            <div class="text">
-              <h3>Teléfono</h3>
-              <p>+56988957368</p>
-            </div>
-          </div>
+          <button type="submit" class="button-form">Enviar</button>
         </div>
-      <div class="contactForm">
-        <form>
-          <h2>Enviar mensaje</h2>
-          <div class="inputBx">
-            <input type="text">
-            <span> Nombre Completo </span>
-          </div>
-          <div class="inputBx">
-            <input type="text" required='required'>
-            <span> email </span>
-          </div>
-          <div class="inputBx">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <span> Cuéntanos algo </span>
-            <div class="inputBox">
-              <input type="submit" value="Enviar">
-            </div>
-          </div>
-
-        </form>
-      </div>
+        <div class="login-form-footer">
+          <a href="#">
+            <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="" Nuestro Facebook>
+          </a>
+          <a href="#">
+            <img width="30" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="" Nuestro Instagram>
+          </a>
+        </div>
+      </form>
     </div>
-    </section>
+    <div class="login-right">
+      <img src="../recursos/chocolate-bar-gif.webp" alt="">
+    </div>
+  </div>
   </main>
+  
   <footer>
 
     <div class="container-fluid">
