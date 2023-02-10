@@ -52,7 +52,14 @@ body{
     transition: 0.5s all;
 }
 
+.img-logo-footer:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
 
+.navbar-collapse{
+    justify-content: center;
+}
 /* ---------------------Banner Principal-------------------------- */
 
 .align-items-center {
@@ -208,6 +215,13 @@ ul a {
     color: white;
     font-size: medium;
     line-height: 15px;
+}
+
+.gradient-text-tienda {
+    background: -webkit-linear-gradient(10deg, #d227a1 40%, rgba(0, 212, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 
 .col-container-us button{

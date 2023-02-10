@@ -47,6 +47,14 @@ body{
     transition: 0.5s all;
 }
 
+.img-logo-footer:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.navbar-collapse{
+    justify-content: center;
+}
 
 /* ---------------------Banner Principal-------------------------- */
 
