@@ -704,3 +704,46 @@ background: linear-gradient(45deg, rgba(51,16,97,1) 0%, rgba(253,45,157,1) 82%);
     }
 }
 
+@media (max-width:268px){
+   
+    .texto-1{
+        width: 100%;
+        font-size: large;
+        margin-left: 10px;
+    }
+
+    #banner-home img{
+        margin-left: -40px;
+        padding: 0;
+        width: 280px;
+    }
+
+    .galleta-cute img {
+        width: 194px;
+        margin-left: -4px;
+    }
+
+    .texto-2 {
+        margin-left: 0vw;
+        width: 70vw;
+    }
+
+    .button-1{
+        margin-left: -55px;
+    }
+
+    .footer{
+        margin: -25%;
+    }
+
+    .animate__animate__wobble{
+        width: 1px;
+        
+    }
+    
+    .cookie-con-lentes{
+        width: 120px;
+        margin-left: -13px;
+    }
+}
+
