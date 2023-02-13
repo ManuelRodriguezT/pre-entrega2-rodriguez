@@ -678,3 +678,29 @@ background: linear-gradient(45deg, rgba(51,16,97,1) 0%, rgba(253,45,157,1) 82%);
     }
 
 }
+
+
+@media (max-width:320px) {
+    
+    .texto-1{
+        width: 100%;
+        font-size: large;
+        margin-left: 0;
+    }
+
+    #banner-home img{
+        margin-left: -20px;
+        padding: 0;
+        width: 280px;
+    }
+
+    .texto-2 {
+        margin-left: 0vw;
+        width: 70vw;
+    }
+
+    .footer{
+        margin: -10%;
+    }
+}
+
