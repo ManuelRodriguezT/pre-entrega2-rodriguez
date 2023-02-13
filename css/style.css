@@ -568,8 +568,13 @@ background: linear-gradient(45deg, rgba(51,16,97,1) 0%, rgba(253,45,157,1) 82%);
     cursor: pointer;
 }
 
+@media (max-width:768px){
+    .principal {
+        flex-direction: column-reverse
+    }
+} 
 
-
+/* ------------------ home-------------------- */
 
 
 @media (max-width:768px){
